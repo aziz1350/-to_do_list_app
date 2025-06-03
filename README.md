@@ -1,16 +1,35 @@
-# to_do_list_app
+# 📱 Persistent Counter App using Flutter & SharedPreferences
 
-A new Flutter project.
+A simple Flutter application demonstrating the use of SharedPreferences for saving persistent state across app launches.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Increment and decrement counter
+- Persistent value using `SharedPreferences`
+- Modern and clean UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshot
+
+> Add a screenshot here if you'd like
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://docs.flutter.dev/get-started/install)
+- A code editor like [VS Code](https://code.visualstudio.com/) or Android Studio
+
+---
+
+### 🛠️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/flutter_counter_app.git
+   cd flutter_counter_app
