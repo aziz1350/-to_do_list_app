@@ -12,12 +12,6 @@ A simple Flutter application demonstrating the use of SharedPreferences for savi
 
 ---
 
-## 📸 Screenshot
-
-> Add a screenshot here if you'd like
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
