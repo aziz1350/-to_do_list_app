@@ -25,5 +25,5 @@ A simple Flutter application demonstrating the use of SharedPreferences for savi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/flutter_counter_app.git
+   git clone https://github.com/aziz1350/flutter_counter_app.git
    cd flutter_counter_app
