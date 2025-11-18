@@ -26,6 +26,11 @@ build/* linguist-vendored
 *.cmake linguist-vendored
 CMakeLists.txt linguist-vendored
 
+# Ignore YAML so percentage does not show 50%
+*.yml linguist-vendored
+*.yaml linguist-vendored
+.github/workflows/* linguist-vendored
+
 # Mark Dart code as detectable (main language)
 lib/* linguist-detectable=true
 test/* linguist-detectable=true
@@ -34,6 +39,6 @@ test/* linguist-detectable=true
 pubspec.yaml linguist-detectable=true
 pubspec.lock linguist-detectable=true
 
-# Optional: Ignore auto-generated files
+# Ignore auto-generated files
 *.g.dart linguist-generated=true
 *.freezed.dart linguist-generated=true
