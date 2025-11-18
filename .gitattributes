@@ -1,2 +1,39 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# --------------------------------------------
+# FIX GITHUB LANGUAGE DETECTION FOR FLUTTER
+# --------------------------------------------
+
+# Ignore native platform folders (count as vendor code)
+android/* linguist-vendored
+ios/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+windows/* linguist-vendored
+web/* linguist-vendored
+
+# Ignore build & tool files
+build/* linguist-vendored
+.dart_tool/* linguist-vendored
+
+# Ignore C, C++, Swift, CMake so they don't affect language %
+*.c linguist-vendored
+*.h linguist-vendored
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.hpp linguist-vendored
+*.mm linguist-vendored
+*.m linguist-vendored
+*.swift linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Mark Dart code as detectable (main language)
+lib/* linguist-detectable=true
+test/* linguist-detectable=true
+
+# Include Flutter project config files
+pubspec.yaml linguist-detectable=true
+pubspec.lock linguist-detectable=true
+
+# Optional: Ignore auto-generated files
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
